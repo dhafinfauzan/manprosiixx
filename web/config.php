@@ -1,17 +1,16 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$database = 'userlogin';
-$port = 3306; // or the port you are using
-
-// Create a connection
-$conection_db = mysqli_connect($host, $user, $password, $database, $port);
-
-// Check connection
-if (!$conection_db) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'userlogin');
  
+/* Attempt to connect to MySQL database */
+$conection_db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+ 
+// Check connection
+if($conection_db === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+?>

@@ -89,7 +89,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <li class="nav-item pcoded-menu-caption">
                         <label>Denah Laboratorium FRI</label>
                     </li>
-                    <li data-username="Maps Google" class="nav-item"><a href="map-google.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Denah Ruangan</span></a></li>
+                    <li data-username="Maps Google" class="nav-item"><a href="denah_fri.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Denah Ruangan</span></a></li>
                     <li class="nav-item pcoded-menu-caption">
                         <label>Pages</label>
                     </li>
@@ -244,7 +244,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             <!-- [ Main Content ] start -->
                             <div class="row">
                                 <!--[ Recent Users ] start-->
-                                <div class="col-xl-8 col-md-6">
+                                <div class="col-xl-8 col-md-6" style="margin-bottom: 0;">
     <div class="card Recent-Users">
         <div class="card-header">
             <h5>Komplain Aset Laboratorium</h5>

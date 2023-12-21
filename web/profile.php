@@ -73,7 +73,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <li class="nav-item pcoded-menu-caption">
                         <label>Denah Komputer FRI</label>
                     </li>
-                    <li data-username="Maps Google" class="nav-item"><a href="map-google.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Denah Ruangan</span></a></li>
+                    <li data-username="Maps Google" class="nav-item"><a href="denah_fri.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Denah Ruangan</span></a></li>
                     <li class="nav-item pcoded-menu-caption">
                         <label>Pages</label>
                     </li>

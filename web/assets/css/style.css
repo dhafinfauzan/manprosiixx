@@ -183,7 +183,9 @@ strong {
 p.text-muted {
   font-size: 13px;
 }
-
+.mt-nav {
+  margin-top: 60px; /* adjust this value based on the height of your navigation bar */
+}
 .card {
   border-radius: 0;
   -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
@@ -434,6 +436,10 @@ p.text-muted {
     margin-left: 0;
     border-width: 0.2rem;
   }
+}
+.img-small {
+  max-width: 300px;
+  max-height: 300px;
 }
 
 /* Example modals */

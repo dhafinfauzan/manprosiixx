@@ -9,7 +9,7 @@
 <html lang="en">
 
 <head>
-    <title>SIMAFRI</title>
+    <title>soengsouy.com</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -69,22 +69,16 @@
                                 <input type="checkbox" name="checkbox-fill-1" id="checkbox-fill-1" checked="">
                                 <label for="checkbox-fill-1" class="cr"> Save Details</label>
                             </div>
-                            <div class="form-group">
-                            <label>Category</label>
-                            <select name="category" class="form-control">
-                                 <option value="user">User</option>
-                                    <option value="admin">Admin</option>
-                            </select>
                         </div>
-                        <div class="text-center">
+                        <div class="form-group text-left">
+                            <div class="checkbox checkbox-fill d-inline">
+                                <input type="checkbox" name="checkbox-fill-2" id="checkbox-fill-2">
+                                <label for="checkbox-fill-2" class="cr">Send me the <a href="#!"> Newsletter</a> weekly.</label>
+                            </div>
+                        </div>
                         <button class="btn btn-primary shadow-2 mb-4">Sign up</button>
-                        </div>
                         <p class="mb-0 text-muted">Allready have an account? <a href="auth-signin.html"> Log in</a></p>
-                        <!-- Dropdown for Category -->
-   
-  
                     </form>
-                    
                 </div>
             </div>
         </div>

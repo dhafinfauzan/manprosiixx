@@ -18,7 +18,7 @@ require_once "php_reset_password.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SIMAFRI</title>
+    <title>soengsouy.com</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
@@ -75,7 +75,7 @@ require_once "php_reset_password.php";
                             </div>
                         </div>
                         <button class="btn btn-primary shadow-2 mb-4">Change Password</button>
-                        <p class="mb-2 text-muted">Forgot password? <a href="auth-reset-password.php">Reset</a></p>
+                        <p class="mb-2 text-muted">Forgot password? <a href="auth-reset-password.html">Reset</a></p>
                         <p class="mb-0 text-muted">Don’t have an account? <a href="register.php">Signup</a></p>
                     </div>
                 </form>
